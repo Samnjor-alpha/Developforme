@@ -11,7 +11,7 @@
 
                 <h2 class="slide-item__title">WEBSITE DEVELOPMENT</h2>
                 <p class="slide-item__desc">DevelopForMe is a web development company that provides website development services with your customer in mind. Our strategy-driven approach allows us to create impressive websites that engage and motivate your target audience.</p>
-                <a href="/services" class="btn btn__primary btn__primary-style2 btn__hi mr-30" tabindex="0">
+                <a href="/contact-us" class="btn btn__primary btn__primary-style2 btn__hi mr-30" tabindex="0">
                     Hire us</a>
 
 
@@ -21,7 +21,7 @@
     </div>
 
 @endsection
-@section('webservices')
+@section('services')
         <div class="container">
             <h1 class="work-title text-center">Web Development Packages</h1>
             <div class="text-center">
@@ -175,7 +175,7 @@
             </div>
         </div><!-- /.container -->
 @endsection
-@section('webdev')
+@section('dev')
     <div class="container">
         <h1 class="work-title text-center">
             A professional website takes experience and creativity </h1>

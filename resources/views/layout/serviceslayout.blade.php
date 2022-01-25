@@ -22,12 +22,12 @@
 
     </section>
     <section class="pricing pt-10 pb-2">
-        @yield('webservices')
+        @yield('services')
     </section>
-    <section  class="services-layout3 pt-10 pb-20">
-        @yield('webdev')
+    <section  class="services-layout3">
+        @yield('dev')
     </section>
-    <section  class="services-layout3 pt-10 pb-20">
+    <section  class="services-layout3">
         @yield('cost')
     </section>
     @include('layout.sidebar')

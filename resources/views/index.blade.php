@@ -21,7 +21,7 @@
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="web-development">Web Development</a>
-                            <a class="dropdown-item" href="mobile-app-development">Mobile App Development</a>
+
                             <a class="dropdown-item" href="design">Design</a>
                             <a class="dropdown-item" href="outsource">Outsourcing</a>
                         </div>
@@ -68,7 +68,7 @@
         <div class="row" >
             <!-- service item #1 -->
 
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
 
                 <div class="service-item">
                     <div class="service-item__content">
@@ -83,7 +83,7 @@
                 </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
 
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
                 <div class="service-item">
                     <div class="service-item__content">
                         <div class="service-item__icon">
@@ -99,7 +99,7 @@
                 </div><!-- /.service-item -->
             </div><!-- /.col-lg-4 -->
             <!-- service item #5 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
                 <div class="service-item">
                     <div class="service-item__content">
                         <div class="service-item__icon">
@@ -120,7 +120,7 @@
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="web-development">Web Development</a>
-                    <a class="dropdown-item" href="mobile-app-development">Mobile App Development</a>
+
                     <a class="dropdown-item" href="design">Design</a>
                     <a class="dropdown-item" href="outsource">Outsourcing</a>
                 </div>

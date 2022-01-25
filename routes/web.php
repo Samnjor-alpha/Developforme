@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/web-development', function () {
     return view('webdev');
 });
+Route::get('/design', function () {
+    return view('design');
+});

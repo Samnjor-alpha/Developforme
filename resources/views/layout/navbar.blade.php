@@ -18,13 +18,18 @@
                     </li><!-- /.nav-item -->
 
                                      <li class="nav__item  has-dropdown">
-                        <a   class="nav__item-link {{ request()->is('services') ? 'active' : ''}}">Services</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="web-development">Web Development</a>
-                            <a class="dropdown-item" href="mobile-app-development">Mobile App Development</a>
-                            <a class="dropdown-item" href="design">Design</a>
-                            <a class="dropdown-item" href="outsource">Outsourcing</a>
-                        </div>
+                        <a  data-toggle="dropdown" class="dropdown-toggle nav__item-link {{ request()->is('services') ? 'active' : ''}}">Services</a>
+                        <ul class="dropdown-menu">
+                           <li>                               <a class="dropdown-item" href="web-development">Web Development</a>
+                           </li>
+
+                            <li>
+                                <a class="dropdown-item" href="design">Design</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="outsource">Outsourcing</a>
+                            </li>
+                        </ul>
                     </li><!-- /.nav-item -->
                 <!-- /.nav-item -->
                     <li class="nav__item">
@@ -33,6 +38,7 @@
                     <li class="nav__item">
                     <a href="" class="nav__item-link {{ request()->is('contact-us') ? 'active' : ''}}">Contact us</a>
                     </li><!-- /.nav-item -->
+
                 </ul><!-- /.navbar-nav -->
             </div><!-- /.navbar-collapse -->
             <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
