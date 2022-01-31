@@ -16,20 +16,15 @@
 <body>
 <div class="wrapper">
     @include('layout.navbar')
-    <section id="design" class=" slider d-flex align-items-center position-relative vh-100 cover hero">
+    <section id="contact" class=" slider d-flex align-items-center position-relative vh-100 cover hero">
 
         @yield('slide')
 
     </section>
-    <section class="pricing pt-10 pb-2">
-        @yield('services')
-    </section>
-    <section  class="services-layout3">
-        @yield('dev')
-    </section>
-    <section  class="services-layout3">
-        @yield('cost')
-    </section>
+{{--    <section class="page-title page-title-layout12  text-center">--}}
+{{--        @yield('form')--}}
+{{--    </section>--}}
+
     @include('layout.sidebar')
     <a href="https://wa.me/message/DSBCJAXYMD26H1" class="float" target="_blank">
         <i class="fab fa-whatsapp my-float"></i>
@@ -46,3 +41,4 @@
 
 </body>
 </html>
+<?php

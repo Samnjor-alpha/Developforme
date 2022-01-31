@@ -22,3 +22,13 @@ Route::get('/web-development', function () {
 Route::get('/design', function () {
     return view('design');
 });
+Route::get('/contact-us', function () {
+    return view('contact');
+});
+Route::get('/outsource', function () {
+    return view('outsource');
+});
+
+Route::get('/our-works', function () {
+    return view('works');
+});

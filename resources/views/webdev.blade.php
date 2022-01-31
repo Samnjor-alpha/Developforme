@@ -11,7 +11,7 @@
 
                 <h2 class="slide-item__title">WEBSITE DEVELOPMENT</h2>
                 <p class="slide-item__desc">DevelopForMe is a web development company that provides website development services with your customer in mind. Our strategy-driven approach allows us to create impressive websites that engage and motivate your target audience.</p>
-                <a href="/contact-us" class="btn btn__primary btn__primary-style2 btn__hi mr-30" tabindex="0">
+                <a href="contact-us" class="btn btn__primary btn__primary-style2 btn__hi mr-30" tabindex="0">
                     Hire us</a>
 
 

@@ -33,17 +33,17 @@
                     </li><!-- /.nav-item -->
                 <!-- /.nav-item -->
                     <li class="nav__item">
-                        <a href="" class="nav__item-link {{ request()->is('ourworks') ? 'active' : ''}}">Our works</a>
+                        <a href="our-works" class="nav__item-link {{ request()->is('our-works') ? 'active' : ''}}">Our works</a>
                     </li><!-- /.nav-item -->
                     <li class="nav__item">
-                    <a href="" class="nav__item-link {{ request()->is('contact-us') ? 'active' : ''}}">Contact us</a>
+                        <a href="contact-us" class="nav__item-link {{ request()->is('contact-us') ? 'active' : ''}}">Contact us</a>
                     </li><!-- /.nav-item -->
 
                 </ul><!-- /.navbar-nav -->
             </div><!-- /.navbar-collapse -->
             <ul class="navbar-actions list-unstyled mb-0 d-flex align-items-center">
                 <li class="d-none d-xl-block">
-                    <a href="" class="btn btn__primary btn__primary-style2 btn_ action__btn-contact">Lets talk</a>
+                    <a href="contact-us" class="btn btn__primary btn__primary-style2 btn_ action__btn-contact">Lets talk</a>
                 </li>
             </ul><!-- /.navbar-actions -->
         </div><!-- /.container -->

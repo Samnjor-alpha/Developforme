@@ -50,11 +50,12 @@
 /*--------------------------
       Global Styles
 ---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;900&display=swap');
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   color: #51668a;
   overflow-x: hidden;
@@ -216,7 +217,7 @@ select {
 }
 
 .font-secondary {
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .lh-1 {
@@ -3830,7 +3831,7 @@ input[type=radio] {
 }
 
 .cta-banner .cta-banner__title {
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -3989,7 +3990,7 @@ input[type=radio] {
 
 .slider .slide-item__subtitle {
   display: block;
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #f9f9f9;
@@ -5986,7 +5987,7 @@ input[type=radio] {
 }
 
 .blog-nav .blog-nav__content span {
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 13px;
   color: #616161;
   display: block;
@@ -8065,4 +8066,13 @@ input[type=radio] {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
 
+}
+.why-us-col-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: calc((100vw - 320px)/1600*1.625 + 1.5em);
 }

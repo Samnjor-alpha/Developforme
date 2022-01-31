@@ -40,7 +40,10 @@
 
 
     @include('layout.sidebar')
-        <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
+
+    <a href="https://wa.me/message/DSBCJAXYMD26H1" class="float" target="_blank">
+        <i class="fab fa-whatsapp my-float"></i>
+    </a>
     @include('layout.footer')
 
 

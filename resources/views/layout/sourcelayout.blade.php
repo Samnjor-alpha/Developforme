@@ -16,18 +16,13 @@
 <body>
 <div class="wrapper">
     @include('layout.navbar')
-    <section id="design" class=" slider d-flex align-items-center position-relative vh-100 cover hero">
-
+    <section id="source" class=" slider d-flex align-items-center position-relative vh-100 cover hero">
         @yield('slide')
-
     </section>
     <section class="pricing pt-10 pb-2">
         @yield('services')
     </section>
-    <section  class="services-layout3">
-        @yield('dev')
-    </section>
-    <section  class="services-layout3">
+    <section  class="services-layout2">
         @yield('cost')
     </section>
     @include('layout.sidebar')
@@ -35,8 +30,6 @@
         <i class="fab fa-whatsapp my-float"></i>
     </a>
     @include('layout.footer')
-
-
 </div>
 <script src="{{asset('assets/js/jquery-3.5.1.min.js')}}"></script>
 <script src="{{asset('assets/js/portofolio.js')}}"></script>
